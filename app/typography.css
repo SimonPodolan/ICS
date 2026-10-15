@@ -1,0 +1,38 @@
+/* Space Grotesk by Florian Karsten, SIL Open Font License 1.1.
+   Official source: https://github.com/floriankarsten/space-grotesk
+   One locally hosted variable family for the whole interface. */
+:root {
+  --font-ics-text: var(--font-ics-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  /* Preserve the existing Tailwind/site aliases without loading Geist. */
+  --font-geist-sans: var(--font-ics-text);
+  --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-ics-text);
+  font-kerning: normal;
+}
+
+h1,
+h2,
+h3,
+.system-tabs > button,
+.system-watermark,
+.contact-invitation {
+  font-family: var(--font-ics-text);
+  font-weight: 430;
+}
+
+/* Latin keeps the same family; Japanese glyphs use native Japanese UI fonts. */
+html[lang="ja"] h1,
+html[lang="ja"] h2,
+html[lang="ja"] h3,
+html[lang="ja"] .system-tabs > button,
+html[lang="ja"] .contact-invitation {
+  letter-spacing: normal;
+  font-kerning: normal;
+}

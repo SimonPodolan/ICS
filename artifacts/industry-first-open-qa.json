@@ -1,0 +1,38 @@
+{
+  "production": {
+    "before": {
+      "cy": 286.25,
+      "x": 187.5,
+      "y": 2046
+    },
+    "opened": {
+      "dialogScroll": 0,
+      "panelBottom": 650,
+      "panelTop": 52,
+      "y": 2046
+    },
+    "scrolled": {
+      "contentScroll": 325,
+      "wrapperScroll": 0,
+      "y": 2046
+    },
+    "close": {
+      "pageY": 2046,
+      "open": false
+    },
+    "reopen": {
+      "contentScroll": 0,
+      "pageY": 2046
+    },
+    "dragDismiss": {
+      "open": false,
+      "pageY": 2046
+    }
+  },
+  "safari": {
+    "responsiveViewport": "428 × 720",
+    "firstOpen": "panel visible, image and content loaded, close button focused"
+  },
+  "build": "pass",
+  "lint": "pass"
+}

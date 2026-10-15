@@ -1,0 +1,158 @@
+/* Sparse product navigation, informed by Electronic Materials Office's
+   Awwwards entry: https://www.awwwards.com/sites/electronic-materials-office */
+.site-header.ics-header {
+  --header-height: 88px;
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 50;
+  color: #fff;
+  background: transparent;
+  transition: background-color 180ms ease;
+}
+.site-header.ics-header[data-scrolled="true"] {
+  --header-height: 68px;
+  background: #202720f5;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+html { scroll-padding-top: 88px; }
+
+.ics-header .header-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  height: var(--header-height);
+  margin-inline: var(--gutter);
+  gap: clamp(20px, 2.5vw, 40px);
+  border: 0;
+}
+
+.ics-header .header-identity { display: flex; align-items: center; gap: 30px; flex-shrink: 0; }
+.ics-header .header-inner .brand { display: inline-flex; align-items: center; min-height: 44px; }
+.ics-header .header-inner .brand img { display: block; width: 132px; height: auto; }
+.ics-header .header-origin { max-width: 100px; color: #ffffffa8; font-size: 10px; line-height: 1.45; }
+
+.ics-header .desktop-nav { display: flex; align-items: center; gap: clamp(22px, 2.2vw, 34px); margin: 0; font-size: 12px; }
+.ics-header .header-nav-link { position: relative; display: inline-flex; align-items: center; min-height: 44px; color: inherit; border: 0; text-decoration: none; white-space: nowrap; }
+.ics-header .desktop-nav .header-nav-link { padding-block: 12px; }
+.ics-header .desktop-nav .header-nav-link::before { content: ""; position: absolute; left: -12px; width: 4px; height: 4px; border-radius: 50%; background: #a3cb79; opacity: 0; transition: opacity 160ms ease; }
+.ics-header .desktop-nav .header-nav-link:focus-visible::before { opacity: 1; transition: none; }
+.ics-header .header-actions { display: flex; align-items: center; justify-self: end; gap: 28px; margin: 0; min-width: 0; }
+.ics-header .header-actions .header-contact.ui-action { display: inline-flex; flex-shrink: 0; align-self: center; height: 44px; min-height: 44px; margin: 0; padding-block: 0; white-space: nowrap; }
+
+.ics-header .language-picker { position: relative; flex-shrink: 0; }
+.ics-header .language-picker summary { display: flex; align-items: center; justify-content: center; gap: 6px; min-width: 44px; min-height: 44px; padding: 0; font-size: 11px; font-weight: 500; cursor: pointer; list-style: none; -webkit-tap-highlight-color: transparent; }
+.ics-header .language-picker summary::-webkit-details-marker { display: none; }
+.ics-header .language-picker summary .icon { width: 12px; height: 12px; transition: transform 180ms cubic-bezier(.23, 1, .32, 1); }
+.ics-header .language-picker[open] summary .icon { transform: rotate(180deg); }
+.ics-header .language-popover { position: absolute; top: calc(100% + 8px); right: -12px; display: grid; gap: 2px; width: 188px; padding: 7px; border: 1px solid #ffffff16; border-radius: 2px; color: #f4f5f0; background: #232a24; box-shadow: 0 12px 32px #0002; transform: scale(1); transform-origin: top right; opacity: 1; transition: opacity 180ms cubic-bezier(.23, 1, .32, 1), transform 180ms cubic-bezier(.23, 1, .32, 1); }
+.ics-header .language-popover button { display: flex; align-items: center; justify-content: space-between; gap: 20px; width: 100%; min-height: 44px; padding: 10px 11px; border: 0; border-radius: 1px; color: inherit; background: transparent; font-size: 12px; text-align: left; transition: background-color 160ms ease, transform 120ms cubic-bezier(.23, 1, .32, 1); }
+.ics-header .language-popover button > span { font-size: inherit; }
+.ics-header .language-popover button .language-code { color: #f4f5f075; font-size: 9px; }
+.ics-header .language-popover button[aria-pressed="true"] { color: #d9ebc8; background: #ffffff0b; }
+.ics-header .language-popover button[aria-pressed="true"] .language-code { color: #a3cb79; }
+.ics-header .language-popover button:active { transform: scale(.97); }
+.ics-header .language-popover :focus-visible { outline-color: #a3cb79; outline-offset: -2px; }
+
+.site-header.ics-header .mobile-toggle.ui-action { display: none; }
+.ics-header .mobile-nav { display: none; }
+.ics-header .header-menu-line { transition: none; }
+
+
+@starting-style {
+  .ics-header .language-popover { opacity: 0; transform: translateY(-4px) scale(.98); }
+
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .ics-header .desktop-nav a:hover, .ics-header .header-contact:hover { opacity: 1; }
+  .ics-header .desktop-nav .header-nav-link:hover::before { opacity: 1; }
+  .ics-header .language-popover button:hover { background: #ffffff0d; }
+  .ics-header .mobile-email:hover { color: #fff; }
+}
+
+@media (max-width: 1280px) {
+  .ics-header .header-origin { display: none; }
+  .ics-header .header-actions { gap: 22px; }
+}
+
+@media (max-width: 960px) {
+  .site-header.ics-header { --header-height: 80px; }
+  .site-header.ics-header[data-scrolled="true"] { --header-height: 64px; }
+  html { scroll-padding-top: 80px; }
+  .site-header.ics-header[data-menu-open="true"] { background: #202720; }
+  .ics-header .header-inner { display: flex; justify-content: space-between; gap: 20px; }
+  .ics-header .desktop-nav { display: none; }
+  .ics-header .header-actions { margin-left: auto; gap: 15px; }
+  .site-header.ics-header .header-contact.ui-action { display: none; }
+  .site-header.ics-header .mobile-toggle.ui-action { display: inline-flex; width: 44px; height: 44px; }
+  .ics-header .language-popover { right: 0; }
+  .ics-header .mobile-nav { position: absolute; top: var(--header-height); left: 0; right: 0; display: flex; flex-direction: column; gap: 28px; max-height: calc(100dvh - var(--header-height)); overflow-y: auto; overscroll-behavior: contain; padding: 12px var(--gutter) 30px; background: #202720; opacity: 1; transform: translateY(0); transition: opacity 220ms cubic-bezier(.23, 1, .32, 1), transform 220ms cubic-bezier(.23, 1, .32, 1); }
+  .ics-header .mobile-nav-links { display: flex; flex-direction: column; gap: 2px; }
+  .ics-header .mobile-nav .header-nav-link { display: flex; justify-content: space-between; gap: 22px; min-height: 57px; padding-block: 9px; font-size: clamp(25px, 4vw, 35px); font-weight: 400; letter-spacing: -.035em; line-height: 1.3; }
+  .ics-header .mobile-nav .header-nav-link > .icon { width: 20px; height: 20px; color: #b4c5a8; flex-shrink: 0; }
+  .ics-header .mobile-nav-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+  .ics-header .mobile-email { display: inline-flex; align-items: center; min-height: 44px; color: #ffffffa3; font-size: 11px; transition: color 160ms ease; }
+}
+
+@media (max-width: 520px) {
+  .site-header.ics-header { --header-height: 76px; }
+  .ics-header .header-inner .brand img { width: 130px; }
+  .ics-header .header-actions { gap: 9px; }
+  .ics-header .mobile-nav { gap: 23px; padding-bottom: 25px; }
+  .ics-header .mobile-nav-bottom { align-items: flex-start; flex-direction: column; gap: 7px; }
+  .ics-header .mobile-nav-bottom .ui-action { order: -1; }
+}
+
+html[data-input="keyboard"] .ics-header :is(.language-popover, .language-popover button, .language-picker summary .icon, .header-menu-line, .mobile-nav, .mobile-email) { transition: none; }
+html[data-input="keyboard"] .site-header.ics-header { transition: none; }
+html[data-input="keyboard"] .ics-header .language-popover button:active { transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header.ics-header { transition: none; }
+  .ics-header :is(.language-popover, .language-popover button, .language-picker summary .icon, .header-menu-line, .mobile-nav, .mobile-email) { transition: none; }
+  .ics-header .language-popover button:active { transform: none; }
+}
+
+/* Persistent layers let GSAP reverse an interrupted reveal without remounting. */
+.ics-header .mobile-menu-backdrop { display: none; }
+@media (max-width: 960px) {
+  .ics-header .header-inner { position: relative; z-index: 2; }
+  .ics-header .mobile-menu-backdrop {
+    display: block; position: absolute; top: var(--header-height); left: 0; width: 100%;
+    height: calc(100dvh - var(--header-height)); margin: 0; padding: 0; border: 0;
+    background: #11191273; opacity: 0; visibility: hidden; touch-action: none;
+  }
+  .ics-header .mobile-nav {
+    isolation: isolate; z-index: 1; gap: 30px;
+    max-height: calc(100dvh - var(--header-height));
+    padding: 22px var(--gutter) max(24px, env(safe-area-inset-bottom));
+    background: transparent; opacity: 0; visibility: hidden;
+    transform: none; transition: none;
+  }
+  .ics-header .mobile-menu-fill { position: absolute; inset: 0; z-index: -1; background: #202720; pointer-events: none; transform: scaleY(0); transform-origin: top; }
+  .ics-header .mobile-nav-links { gap: 0; }
+  .ics-header .mobile-nav-item { overflow: hidden; }
+  .ics-header .mobile-nav .header-nav-link {
+    min-height: 64px; padding-block: 10px; font-size: clamp(29px, 7vw, 40px);
+    letter-spacing: -.035em; white-space: normal; line-height: 1.2;
+  }
+  .ics-header .mobile-nav .header-nav-link > .icon { width: 20px; opacity: .6; }
+  .ics-header .mobile-nav-bottom { border-top: 1px solid #ffffff20; padding-top: 22px; gap: 14px; }
+  .ics-header .mobile-nav-bottom .ui-action { min-height: 48px; }
+  .site-header.ics-header .mobile-toggle.ui-action { background: #ffffff0a; border: 1px solid #ffffff20; border-radius: 50%; }
+  .ics-header .header-menu-icon { width: 23px; height: 23px; }
+}
+@media (max-height: 600px) and (max-width: 960px) {
+  .ics-header .mobile-nav { padding-top: 10px; gap: 14px; }
+  .ics-header .mobile-nav .header-nav-link { min-height: 50px; font-size: 27px; }
+  .ics-header .mobile-nav-bottom { padding-top: 14px; }
+}
+
+@media (max-width: 960px) {
+  .ics-header .mobile-nav { padding: 0; }
+  .ics-header .mobile-menu-content { position: relative; isolation: isolate; flex-shrink: 0; display: flex; flex-direction: column; gap: 30px; padding: 22px var(--gutter) max(24px, env(safe-area-inset-bottom)); }
+}
+@media (max-height: 600px) and (max-width: 960px) {
+  .ics-header .mobile-menu-content { gap: 14px; padding-top: 10px; }
+}

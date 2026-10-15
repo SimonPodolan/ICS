@@ -1,0 +1,50 @@
+{
+  "manufacturing": {
+    "page": "https://www.ics-dryice.com/oblasti-pouzitia/strojarsky-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/2ia25_full.jpg"
+  },
+  "automotive": {
+    "page": "https://www.ics-dryice.com/oblasti-pouzitia/automobilovy-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/u5byl_full.png"
+  },
+  "detailing": {
+    "page": "https://www.ics-dryice.com/cardetailing",
+    "image": "https://www.ics-dryice.com/data/images/page/ujtln_full.jpg"
+  },
+  "food": {
+    "page": "https://www.ics-dryice.com/oblasti-pouzitia/potravinarsky-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/1hhng_full.jpg"
+  },
+  "printing": {
+    "page": "https://www.ics-dryice.com/oblasti-pouzitia/tlaciarensky-papierensky-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/d7nn1_full.png"
+  },
+  "healthcare": {
+    "page": "https://www.ics-dryice.com/cistenie-suchym-ladom-v-zdravotnictve",
+    "image": "https://www.ics-dryice.com/data/images/page/0910a_full.png"
+  },
+  "restoration": {
+    "page": "https://www.ics-dryice.com/renovacie-/-upratovacie-sluzby",
+    "image": "https://www.ics-dryice.com/data/images/page/t5lma_full.jpg"
+  },
+  "plastics": {
+    "page": "https://www.ics-dryice.com/plastikarsky-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/9rr2j_full.png"
+  },
+  "rubber": {
+    "page": "https://www.ics-dryice.com/oblasti-pouzitia/gumarensky-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/ttqub_full.png"
+  },
+  "textiles": {
+    "page": "https://www.ics-dryice.com/textilny-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/2u1sn_full.JPG"
+  },
+  "marine": {
+    "page": "https://www.ics-dryice.com/oblasti-pouzitia/lodny-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/62z58_full.JPG"
+  },
+  "energy": {
+    "page": "https://www.ics-dryice.com/energeticky-priemysel",
+    "image": "https://www.ics-dryice.com/data/images/page/q61ik_full.jpg"
+  }
+}

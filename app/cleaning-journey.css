@@ -1,0 +1,101 @@
+.cleaning-journey { --journey-top: 72px; --journey-scene-height: calc(100svh - var(--journey-top)); --journey-travel: 110svh; position: relative; background: #fff; }
+.journey-scene { display: grid; grid-template-columns: .9fr 1.2fr; align-items: center; gap: 7vw; padding-block: 72px 58px; background: #fff; }
+.journey-copy h2 { font-size: clamp(32px,3vw,46px); line-height: 1.13; letter-spacing: -1.65px; }
+.journey-copy h2 > span { color: #7d8674; }
+.journey-explanation { display: grid; margin-top: 32px; max-width: 370px; }
+.journey-text-panel { grid-area: 1 / 1; align-self: start; min-width: 0; opacity: 0; transform: translateY(7px); pointer-events: none; user-select: none; transition: opacity 220ms cubic-bezier(.23,1,.32,1), transform 220ms cubic-bezier(.23,1,.32,1); }
+.journey-text-panel[data-active="true"] { opacity: 1; transform: translateY(0); pointer-events: auto; user-select: text; }
+.journey-explanation h3 { font-size: 19px; letter-spacing: -.45px; margin-bottom: 12px; }
+.journey-explanation p { font-size: 13px; line-height: 1.85; color: #67705f; }
+.journey-next { display: inline-flex; align-items: center; justify-content: center; gap: 20px; min-height: 44px; margin-top: 20px; padding: 11px 16px; border: 1px solid #2e4a24; border-radius: 3px; background: #2e4a24; color: #fff; font-size: 12px; font-weight: 500; line-height: 1.5; transition: transform 160ms cubic-bezier(.23,1,.32,1), background-color 160ms ease; }
+.journey-next:active { transform: scale(.97); }
+.journey-next svg { width: 17px; height: 17px; flex-shrink: 0; stroke-width: 1.5; }
+.journey-next-labels { display: grid; }
+.journey-next-labels > span { grid-area: 1 / 1; opacity: 0; transform: translateY(3px); transition: opacity 180ms cubic-bezier(.23,1,.32,1), transform 180ms cubic-bezier(.23,1,.32,1); }
+.journey-next-labels > span[data-active="true"] { opacity: 1; transform: translateY(0); }
+.journey-experiment { min-width: 0; position: relative; }
+.experiment-temperature { position: absolute; top: -5px; right: 5%; font-size: 45px; font-weight: 350; letter-spacing: -2px; color: #7a8670; }
+.experiment-temperature span { font-size: 20px; vertical-align: top; line-height: 1.9; letter-spacing: -.5px; }
+.cleaning-diagram { width: 100%; height: auto; overflow: visible; }
+.diagram-pellets, .diagram-cold, .diagram-gas, .dirt-piece, .gas-label, .dirt-label { transition: transform 500ms cubic-bezier(.2,.7,.2,1), opacity 300ms ease-out; transform-box: fill-box; transform-origin: center; }
+.diagram-cold, .diagram-gas, .gas-label, .dirt-label { opacity: 0; }
+.cleaning-journey:not([data-scroll]) .diagram-cold { transform: scale(.8); }
+.cleaning-journey:not([data-scroll]) .diagram-gas { transform: translateY(45px); }
+.cleaning-journey:not([data-scroll]) [data-step="1"] .diagram-pellets { transform: translate(50px,65px) scale(.5); opacity: .25; }
+.cleaning-journey:not([data-scroll]) [data-step="1"] .diagram-cold { opacity: 1; transform: scale(1); }
+.cleaning-journey:not([data-scroll]) [data-step="1"] .dirt-a { transform: translate(-4px,-4px) rotate(-2deg); }
+.cleaning-journey:not([data-scroll]) [data-step="1"] .dirt-b { transform: translate(0,-8px) rotate(1deg); }
+.cleaning-journey:not([data-scroll]) [data-step="1"] .dirt-c { transform: translate(5px,-3px) rotate(2deg); }
+.cleaning-journey:not([data-scroll]) [data-step="2"] .diagram-pellets { transform: translate(65px,95px) scale(.3); opacity: 0; }
+.cleaning-journey:not([data-scroll]) [data-step="2"] .diagram-gas, .cleaning-journey:not([data-scroll]) [data-step="2"] .gas-label, .cleaning-journey:not([data-scroll]) [data-step="2"] .dirt-label { opacity: 1; transform: translateY(0); }
+.cleaning-journey:not([data-scroll]) [data-step="2"] .dirt-a { transform: translate(355px,-58px) scale(.22) rotate(18deg); opacity: .7; }
+.cleaning-journey:not([data-scroll]) [data-step="2"] .dirt-b { transform: translate(218px,-56px) scale(.23) rotate(-14deg); opacity: .7; }
+.cleaning-journey:not([data-scroll]) [data-step="2"] .dirt-c { transform: translate(97px,-39px) scale(.25) rotate(25deg); opacity: .7; }
+.cleaning-journey:not([data-scroll]) [data-step="2"] .diagram-labels > path:first-child, .cleaning-journey:not([data-scroll]) [data-step="2"] .diagram-labels > text:nth-child(2) { opacity: 0; }
+.journey-steps { display: flex; position: relative; align-items: flex-start; justify-content: space-between; margin-top: 15px; gap: 15px; }
+.journey-steps::before { content: ""; position: absolute; top: 4px; left: 0; right: 0; height: 1px; background: #d9e0d2; }
+.journey-steps button { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 13px; border: 0; padding: 0 0 9px; background: transparent; color: #707a65; text-align: left; font-size: 12px; }
+.journey-steps button:last-child { align-items: flex-end; }
+.journey-step-dot { width: 9px; height: 9px; border: 1px solid #aebba1; background: white; border-radius: 50%; transition: transform 160ms ease-out; }
+.journey-steps button[aria-pressed="true"] { color: #2e4a24; }
+.journey-steps button[aria-pressed="true"] .journey-step-dot { border-color: #4b8139; background: #4b8139; box-shadow: 0 0 0 4px #fff; }
+.journey-source.inline-link { margin-top: 17px; font-size: 10px; color: #67705f; gap: 10px; }
+@media (hover:hover) and (pointer:fine) { .journey-steps button:hover { color: #2e4a24; } .journey-steps button:hover .journey-step-dot { transform: scale(1.25); } .journey-next:hover { background: #3b5b30; } }
+@media (max-width:900px) { .journey-scene { gap: 35px; grid-template-columns: 1fr 1.2fr; } .journey-copy h2 { font-size: 34px; } .experiment-temperature { font-size: 36px; } }
+@media (max-width:600px) { .journey-scene { grid-template-columns: 1fr; padding-block: 38px 30px; gap: 22px; } .journey-copy h2 { font-size: 30px; max-width: 330px; } .journey-explanation { margin-top: 23px; } .journey-explanation h3 { font-size: 17px; } .journey-explanation p { font-size: 12px; line-height: 1.7; } .journey-next { font-size: 11px; margin-top: 14px; } .experiment-temperature { top: 0; font-size: 30px; } .experiment-temperature span { font-size: 15px; } .cleaning-diagram { margin-top: 10px; } .diagram-labels, .gas-label, .dirt-label { font-size: 16px; } .journey-steps { margin-top: 5px; gap: 8px; } .journey-steps button { font-size: 11px; } .journey-source.inline-link { font-size: 9px; } }
+@media (prefers-reduced-motion:reduce) { .cleaning-journey *, .cleaning-journey *::before { transition: none !important; } }
+
+/* A single viewport becomes a short, reversible explanation controlled by scroll. */
+.cleaning-journey[data-scroll] .diagram-pellets,
+.cleaning-journey[data-scroll] .diagram-cold,
+.cleaning-journey[data-scroll] .diagram-gas,
+.cleaning-journey[data-scroll] .dirt-piece,
+.cleaning-journey[data-scroll] .gas-label,
+.cleaning-journey[data-scroll] .dirt-label { transition: none; }
+.impact-flash { opacity: 0; }
+.journey-progress { position: absolute; top: 4px; left: 0; right: 0; height: 1px; background: #4b8139; transform: scaleX(0); transform-origin: left; }
+.journey-scroll-footer { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 11px; color: #7a8371; }
+.journey-scroll-hint { display: inline-flex; align-items: center; gap: 12px; }
+.journey-scroll-hint svg { width: 12px; height: 18px; }
+.journey-skip { display: inline-flex; align-items: center; gap: 16px; padding-block: 10px; }
+.journey-static-steps { display: none; }
+@media (max-width: 960px) { .cleaning-journey { --journey-top: 64px; } }
+@media (max-width: 600px) {
+ .cleaning-journey { --journey-scene-height: min(calc(100svh - var(--journey-top)),680px); --journey-travel: 75svh; }
+
+}
+@media (prefers-reduced-motion: reduce) {
+ .cleaning-journey .journey-next.ui-action { display: none; }
+ .journey-scroll-hint, .journey-explanation, .journey-next { display: none; }
+ .journey-static-steps { display: grid; gap: 20px; margin-top: 28px; max-width: 400px; }
+ .journey-static-steps h3 { font-size: 16px; margin-bottom: 7px; }
+ .journey-static-steps p { font-size: 12px; line-height: 1.8; color: #67705f; }
+ .journey-scroll-footer { justify-content: flex-end; }
+}
+.cleaning-journey[data-scroll] .diagram-pellets,
+.cleaning-journey[data-scroll] .diagram-cold,
+.cleaning-journey[data-scroll] .diagram-gas,
+.cleaning-journey[data-scroll] .dirt-piece { transform-box: view-box; }
+.journey-announcement { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+html[data-input="keyboard"] .journey-text-panel, html[data-input="keyboard"] .journey-next, html[data-input="keyboard"] .journey-next-labels > span { transition: none; }
+/* Reserve the sticky scene before hydration so deep links retain their position. */
+@media (prefers-reduced-motion: no-preference) {
+ .cleaning-journey::after { content: ""; display: block; height: var(--journey-travel); }
+ .cleaning-journey .journey-scene { position: sticky; top: min(var(--journey-top), calc(100svh - var(--journey-content-height, var(--journey-scene-height)))); height: auto; min-height: var(--journey-scene-height); padding-block: clamp(35px,7svh,90px); grid-template-rows: 1fr; row-gap: 26px; }
+}
+@media (max-width: 600px) and (prefers-reduced-motion: no-preference) {
+ .cleaning-journey .journey-scene { grid-template-rows: auto 1fr; padding-block: 22px 14px; row-gap: 8px; }
+ .cleaning-journey .journey-copy h2 { font-size: clamp(26px,7vw,30px); }
+ .cleaning-journey .journey-explanation { margin-top: 16px; }
+ .cleaning-journey .journey-explanation h3 { margin-bottom: 7px; }
+ .cleaning-journey .journey-next { margin-top: 12px; }
+ .cleaning-journey .journey-experiment { align-self: center; }
+ .cleaning-journey .experiment-temperature { top: -16px; }
+ .cleaning-journey .cleaning-diagram { height: clamp(128px,22svh,154px); margin-top: 0; }
+ .cleaning-journey .journey-steps { margin-top: 2px; }
+ .cleaning-journey .journey-steps button { min-height: 44px; gap: 8px; padding-bottom: 7px; }
+ .cleaning-journey .journey-source.inline-link { margin-top: 5px; padding-block: 5px; }
+ .journey-scroll-footer { font-size: 9px; gap: 16px; }
+ .journey-scroll-hint { max-width: 160px; gap: 7px; }
+ .journey-skip { gap: 8px; }
+}

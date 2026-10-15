@@ -1,0 +1,110 @@
+/* Product-first hierarchy: spacious selection, compact supporting information. */
+.home-page { --surface: #f2f3ed; }
+.home-page .hero { min-height: 560px; }
+.home-page .technology-section {
+  min-height: min(820px, calc(100svh - 68px));
+  padding-block: clamp(28px, 4svh, 44px);
+}
+.home-page .technology-section .system-stage { gap: 5vw; padding-block: 20px 0; }
+.home-page .technology-section .system-copy > h3 { font-size: clamp(36px, 4vw, 60px); }
+.home-page .technology-section .system-visual > img { height: clamp(290px, 48svh, 540px); }
+.home-page .technology-section .system-tabs > :is(a, button) { font-size: clamp(19px, 2vw, 29px); padding-block: 14px; }
+.home-page .technology-section .system-copy > .ui-action { margin-top: 24px; }
+.home-page .technology-section .system-caption { padding-top: 8px; }
+
+.home-page .cleaning-journey {
+  --journey-top: 68px;
+  /* Keep the next section below the viewport until the sticky scene releases. */
+  --journey-scene-height: calc(100svh - var(--journey-top));
+  --journey-travel: 60svh;
+}
+.home-page .journey-copy h2 { font-size: clamp(30px, 2.8vw, 42px); }
+.home-page .journey-scene { padding-block: 48px; }
+.home-page .applications-story { background: var(--surface); padding-block: clamp(44px, 5vw, 64px); }
+.home-page .industry-intro { margin-bottom: 26px; }
+.home-page .partners { padding-block: 26px; }
+.home-page .engineering-story { margin-block: clamp(40px, 5vw, 64px); gap: clamp(32px, 5vw, 72px); align-items: start; }
+.home-page .engineering-photo { height: clamp(300px, 30vw, 390px); }
+.home-page .engineering-copy { padding-block: 4px; }
+.home-page .engineering-copy > h2 { font-size: clamp(30px, 3vw, 44px); }
+.home-page .engineering-intro { margin-top: 16px; }
+.home-page .engineering-details { margin-top: 20px; }
+.home-page .engineering-row { display: block; padding: 0; }
+.home-page .engineering-row > summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 52px; padding-block: 12px; font-size: 14px; font-weight: 500; list-style: none; cursor: pointer; }
+.home-page .engineering-row > summary::-webkit-details-marker { display: none; }
+.home-page .engineering-row > summary > span { font-size: 19px; font-weight: 400; transition: transform 180ms var(--ease-out); }
+.home-page .engineering-row[open] > summary > span { transform: rotate(45deg); }
+.home-page .engineering-row > p { padding-bottom: 16px; font-size: 13px; line-height: 1.7; }
+.home-page .engineering-row > summary:focus-visible { outline: 2px solid #477438; outline-offset: 3px; }
+.home-page .services-section { padding-block: 48px; gap: 7vw; border-top: 1px solid var(--line); margin-inline: var(--gutter); padding-inline: 0; }
+.home-page .services-intro h2 { font-size: clamp(30px, 2.8vw, 40px); }
+.home-page .service-row h3 button { min-height: 56px; padding-block: 16px; font-size: 16px; }
+.home-page .services-intro > p { margin-top: 14px; }
+.home-page .world-story {
+  background: var(--surface);
+  min-height: min(720px, calc(100svh - 68px));
+  justify-content: center;
+  padding-block: clamp(40px, 4.5vw, 64px);
+  gap: 24px;
+}
+.home-page .world-story .world-intro h2 { font-size: clamp(34px, 3.6vw, 52px); }
+.home-page .world-story .world-map-stage { height: clamp(220px, 34svh, 360px); }
+.home-page .world-story .world-map-controls { min-height: 60px; padding-block: 8px 14px; }
+.home-page .world-story .world-map-facts { justify-content: flex-start; gap: clamp(28px, 5vw, 72px); padding-top: 22px; }
+.home-page .world-story .world-map-facts dd { font-size: 38px; letter-spacing: -.04em; }
+.home-page .world-story .world-map-facts dt { font-size: 11px; }
+.home-page .contact-section { background: #fff; padding-block: clamp(40px, 5vw, 64px); }
+.home-page .contact-invitation { font-size: clamp(36px, 4vw, 58px); margin-bottom: 24px; }
+
+@media (max-width: 960px) {
+  .home-page .cleaning-journey { --journey-top: 64px; }
+}
+@media (max-width: 800px) {
+  .home-page .technology-section { min-height: 0; padding-block: 24px 36px; }
+  .home-page .technology-section .system-stage { grid-template-columns: 1fr; gap: 20px; align-content: start; }
+  .home-page .technology-section .system-visual { order: -1; }
+  .home-page .technology-section .system-visual > img { height: clamp(240px, 34svh, 340px); width: 100%; margin: 0; }
+  .home-page .technology-section .system-copy { padding: 0; }
+  .home-page .technology-section .system-copy > h3 { max-width: 520px; font-size: clamp(30px, 6vw, 38px); }
+  .home-page .technology-section .system-description { margin-top: 12px; font-size: 13px; }
+  .home-page .technology-section .system-copy > .ui-action { margin-top: 20px; }
+  .home-page .technology-section .system-tabs > :is(a, button) { font-size: 19px; }
+  .home-page .world-story { min-height: 0; }
+}
+@media (max-width: 600px) {
+  .home-page .hero { min-height: 540px; }
+  .home-page .cleaning-journey { --journey-scene-height: min(calc(100svh - var(--journey-top)), 560px); --journey-travel: 45svh; }
+  .home-page .journey-scene { padding-block: 32px; }
+  .home-page .applications-story { padding-block: 40px; }
+  .home-page .industry-intro { margin-bottom: 20px; }
+  .home-page .engineering-story { margin-block: 40px; gap: 24px; }
+  .home-page .engineering-photo { height: 230px; }
+  .home-page .engineering-copy > h2 { font-size: 32px; }
+  .home-page .services-section { padding-block: 36px; gap: 22px; }
+  .home-page .world-story { padding-block: 36px 24px; gap: 20px; }
+  .home-page .world-story .world-intro { gap: 16px; }
+  .home-page .world-story .world-intro h2 { font-size: clamp(32px, 8vw, 40px); }
+  .home-page .world-story .world-map-stage { height: clamp(170px, 26svh, 230px); }
+  .home-page .world-story .world-map-facts { gap: 28px; justify-content: space-between; }
+  .home-page .world-story .world-map-facts > div { flex-direction: column-reverse; align-items: flex-start; }
+  .home-page .world-story .world-map-facts dd { font-size: 34px; }
+  .home-page .world-story .world-map-facts dt { font-size: 10px; }
+  .home-page .contact-section { padding-block: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-page .engineering-row > summary > span { transition: none; }
+}
+html[data-input="keyboard"] .home-page .engineering-row > summary > span { transition: none; }
+/* All four product families remain visible on small screens. */
+@media (max-width: 600px) {
+  .home-page .technology-section .system-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 20px; overflow: visible; }
+  .home-page .technology-section .system-tabs > .system-category-preview { min-width: 0; min-height: 48px; padding: 10px 0; font-size: 19px; }
+  .home-page .technology-section .system-visual > img { height: clamp(220px, 30svh, 280px); }
+  html[lang="sk"] .home-page .technology-section .system-tabs > .system-category-preview,
+  html[lang="de"] .home-page .technology-section .system-tabs > .system-category-preview { font-size: clamp(14px, 4vw, 17px); }
+}
+.home-page .hero-location { padding-left: 0; }
+
+@media (max-width: 600px) and (prefers-reduced-motion: no-preference) {
+  .home-page .cleaning-journey .journey-scene { padding-block: 24px; }
+}

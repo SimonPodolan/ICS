@@ -1,0 +1,13 @@
+Space Grotesk variable, weight axis 300–700.
+Copyright and redistribution terms: space-grotesk-OFL.txt.
+
+Official upstream:
+https://github.com/floriankarsten/space-grotesk
+
+Unmodified font downloaded from:
+https://raw.githubusercontent.com/floriankarsten/space-grotesk/master/fonts/woff2/SpaceGrotesk%5Bwght%5D.woff2
+
+License downloaded from:
+https://raw.githubusercontent.com/floriankarsten/space-grotesk/master/OFL.txt
+
+Retrieved 2026-10-14. Local hosting avoids runtime or build-time font network requests.

@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "height": 720,
+      "name": "hero",
+      "top": 0
+    },
+    {
+      "height": 1440,
+      "name": "introduction",
+      "top": 720
+    },
+    {
+      "height": 720,
+      "name": "technology",
+      "top": 2160
+    },
+    {
+      "height": 599,
+      "name": "applications",
+      "top": 2880
+    },
+    {
+      "height": 112,
+      "name": "partners section-pad",
+      "top": 3479
+    },
+    {
+      "height": 551,
+      "name": "engineering",
+      "top": 3655
+    },
+    {
+      "height": 469,
+      "name": "services",
+      "top": 4270
+    },
+    {
+      "height": 811,
+      "name": "worldwide",
+      "top": 4739
+    },
+    {
+      "height": 298,
+      "name": "contact-section section-pad",
+      "top": 5549
+    }
+  ],
+  "viewport": [
+    1280,
+    720
+  ]
+}

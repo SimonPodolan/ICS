@@ -1,0 +1,32 @@
+{
+  "build": "passed",
+  "lint": "passed",
+  "catalogProducts": 99,
+  "renderedPages": 116,
+  "internalLinks": 3244,
+  "localMedia": 435,
+  "missingLinkOrAssetTargets": 0,
+  "browserWidths": [
+    320,
+    390,
+    1440
+  ],
+  "browserFlows": [
+    "desktop product category navigation",
+    "product gallery and lightbox",
+    "product enquiry prefill",
+    "required form validation",
+    "enquiry review and edit",
+    "Escape dialog dismissal",
+    "mobile menu open and close",
+    "mobile product category preview stays on homepage",
+    "mobile industry detail sheet",
+    "accessory search empty state and reset",
+    "partners, downloads, privacy responsive layouts"
+  ],
+  "consoleErrorsObserved": 0,
+  "limitations": [
+    "No direct email delivery backend: enquiry is prepared for the visitor\u2019s email app.",
+    "Representative browser flows tested; all catalog pages audited statically."
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "921": [],
+  "864": [],
+  "833": [],
+  "825": [],
+  "872": [],
+  "848": [],
+  "887": [],
+  "868": [],
+  "829": [],
+  "891": [],
+  "852": [],
+  "844": [],
+  "901": [],
+  "845": [],
+  "900": [],
+  "916": [],
+  "890": [],
+  "828": [],
+  "886": [],
+  "869": [],
+  "849": [],
+  "873": [],
+  "824": [],
+  "832": [],
+  "865": [],
+  "881": [],
+  "839": [],
+  "897": [],
+  "878": [],
+  "854": [],
+  "842": [],
+  "907": [],
+  "815": [],
+  "927": [],
+  "862": [],
+  "835": [],
+  "823": [],
+  "931": [],
+  "858": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 565 mm",
+        "Width: 387 mm",
+        "Height: 795 mm (1007 with a handle)"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "1-16 bar (14,5 - 232 PSI)"
+      ]
+    },
+    {
+      "title": "Service supply connections:",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling",
+        "Electrical: 100 – 240 V, 50 – 60 Hz, CEE",
+        "7/4, Type F"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 0-100 kg/h",
+        "Compressed air: 1,0-12,0 m³/min. (35,3-424 CFM)",
+        "depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting",
+        "pressure, nozzle type"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 73 kg",
+        "(without the hose)"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "10 kg"
+      ]
+    }
+  ],
+  "818": [],
+  "859": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length : 889 mm",
+        "Width : 1281 mm",
+        "Heigh: 1590 mm"
+      ]
+    },
+    {
+      "title": "Hydraulic unit",
+      "lines": [
+        "Capacity 50 l"
+      ]
+    },
+    {
+      "title": "Output",
+      "lines": [
+        "120 kg/h",
+        "Pellets: 1,5 mm /3 mm /16 mm"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Co2 consumption: 258-288 l/h",
+        "CO2 connection : 3/4” AG (IP-100-H),",
+        "1“ AG (heat exchanger)"
+      ]
+    },
+    {
+      "title": "Power Supply",
+      "lines": [
+        "Rated power: 7,5kW",
+        "3x400VAC+N+PE, 50-60 Hz"
+      ]
+    },
+    {
+      "title": "Noise Level",
+      "lines": [
+        "60 – 85 dB(A)"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "500 kg"
+      ]
+    },
+    {
+      "title": "CO2 pressure",
+      "lines": [
+        "16-21 bar"
+      ]
+    }
+  ],
+  "930": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 528 mm",
+        "Width: 296 mm",
+        "Height: 336 mm"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 17 kg with hose"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "Casing: Plastic",
+        "Wheel frame: Stainless steel"
+      ]
+    },
+    {
+      "title": "Compressed air supply",
+      "lines": [
+        "NW 7.2 coupling, acc. ISO",
+        "4414/EN 983 standard",
+        "Minimum requirements for compressed air according to ISO 8573-1:2010 [1:4:1]"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: up to 18 kg/h",
+        "Compressed air: 0.32 - 0.35 m³/min."
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "4 kg"
+      ]
+    },
+    {
+      "title": "Noise level",
+      "lines": [
+        "65-85 dB(A) depending on the blasting",
+        "pressure and the cleaned surface"
+      ]
+    },
+    {
+      "title": "Input Pressure",
+      "lines": [
+        "up to 10 bar"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "5.5 bar"
+      ]
+    }
+  ],
+  "875": [],
+  "822": [],
+  "834": [],
+  "926": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 5 800 mm",
+        "Width : 2 400 mm",
+        "Height: 3 600 mm"
+      ]
+    },
+    {
+      "title": "Performance (kg/h)",
+      "lines": [
+        "120"
+      ]
+    },
+    {
+      "title": "Max. foil width:",
+      "lines": [
+        "530 mm"
+      ]
+    },
+    {
+      "title": "Bag size (WxL)",
+      "lines": [
+        "250 x max, 300 mm"
+      ]
+    },
+    {
+      "title": "Tolerance max.",
+      "lines": [
+        "+/- 3%"
+      ]
+    },
+    {
+      "title": "Power supply",
+      "lines": [
+        "400V/50-60Hz/32A, CEE-6h/IEC60309"
+      ]
+    },
+    {
+      "title": "Power consumption",
+      "lines": [
+        "Packaging device : 7,2 kW",
+        "Peletizer: 7,5 kW"
+      ]
+    },
+    {
+      "title": "Cycle time",
+      "lines": [
+        "up to 8 pouches per min."
+      ]
+    }
+  ],
+  "863": [],
+  "814": [],
+  "843": [],
+  "906": [],
+  "855": [],
+  "910": [],
+  "896": [],
+  "879": [],
+  "838": [],
+  "880": [],
+  "817": [],
+  "905": [],
+  "840": [],
+  "856": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 597 mm",
+        "Width : 446 mm",
+        "Height : 931 mm"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "Max 10 bar / 145 PSI"
+      ]
+    },
+    {
+      "title": "Service supply connections",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling",
+        "Electrical: 110 – 240 V, 60 Hz, CEE 7/4",
+        "Type F"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 0-60 kg/h",
+        "Compressed air : 0,5 - 4,5 m³/min. (17,5-159 CFM)",
+        "(depending on the nozzle type)"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level:",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting",
+        "pressure, nozzle type and the cleaned surface"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 51 kg",
+        "(without the hose)"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "17 kg"
+      ]
+    }
+  ],
+  "895": [],
+  "929": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 500 mm",
+        "Width : 337 mm",
+        "Height : 614 mm"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "Max 10 bar / 145 PSI"
+      ]
+    },
+    {
+      "title": "Service supply connections",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 5-45 kg/h",
+        "Compressed air : 1.0 - 4,5 m³/min. (17,5-159 CFM)",
+        "(depending on the nozzle type)"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level:",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting pressure, nozzle type &",
+        "cleaned surface"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 39 kg"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "10 kg"
+      ]
+    }
+  ],
+  "909": [],
+  "876": [],
+  "899": [],
+  "821": [],
+  "837": [],
+  "860": [],
+  "925": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 868 mm",
+        "Width: 540 mm",
+        "Height: 975"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "up to 16 bar"
+      ]
+    },
+    {
+      "title": "Service supply connections:",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling",
+        "Electrical: 100 – 240 V, 50 – 60 Hz, CEE",
+        "7/4, Type F"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 0-110 kg/h",
+        "Compressed air: up tp 15 m³/min.",
+        "depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting",
+        "pressure, nozzle type"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "25 kg",
+        "The possibility of changing the diameter",
+        "of the hose & distribution pipe",
+        "(3/4\" and 1/2\" versions)."
+      ]
+    }
+  ],
+  "861": [],
+  "924": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 868 mm",
+        "Width: 540 mm",
+        "Height: 975"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "up to 16 bar"
+      ]
+    },
+    {
+      "title": "Service supply connections:",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling",
+        "Electrical: 100 – 240 V, 50 – 60 Hz, CEE",
+        "7/4, Type F"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 0-110 kg/h",
+        "Compressed air: up tp 15 m³/min.",
+        "depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting",
+        "pressure, nozzle type"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "31 kg",
+        "The possibility od changing the diameter",
+        "of the hose & distribution pipe",
+        "(3/4\" and 1/2\" versions)."
+      ]
+    }
+  ],
+  "836": [],
+  "898": [],
+  "908": [],
+  "928": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 868 mm",
+        "Width: 540 mm",
+        "Height: 975"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "up to 16 bar"
+      ]
+    },
+    {
+      "title": "Service supply connections:",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling",
+        "Electrical: 100 – 240 V, 50 – 60 Hz, CEE",
+        "7/4, Type F"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 0-110 kg/h",
+        "Compressed air: up tp 15 m³/min.",
+        "depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting",
+        "pressure, nozzle type"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "25 kg (3 mm CO2 pellets)",
+        "The possibility of changing the diameter",
+        "of the hose & distribution pipe",
+        "(3/4\" and 1/2\" versions)."
+      ]
+    }
+  ],
+  "894": [],
+  "857": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 565 mm",
+        "Width: 387 mm",
+        "Height: 795 mm (1007 with a handle)"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "1-16 bar  (14,5 - 232 PSI)"
+      ]
+    },
+    {
+      "title": "Service supply connections:",
+      "lines": [
+        "Compressed air : DIN 3489 claw coupling",
+        "Electrical: 100 – 240 V, 50 – 60 Hz, CEE",
+        "7/4, Type F"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: 0-100 kg/h",
+        "Compressed air: 1,0-12,0 m³/min. (35,3-424 CFM)",
+        "depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "stainless steel"
+      ]
+    },
+    {
+      "title": "Noise Level",
+      "lines": [
+        "60 – 120 dB(A) depending on the blasting",
+        "pressure, nozzle type"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 70 kg",
+        "(without the hose)"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "13 kg"
+      ]
+    }
+  ],
+  "904": [],
+  "841": [],
+  "816": [],
+  "919": [],
+  "870": [],
+  "827": [],
+  "831": [],
+  "866": [],
+  "923": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 670 mm",
+        "Width: 330 mm",
+        "Height: 575 mm / 930 with Handgrip"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 53 kg"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "Stainless steel"
+      ]
+    },
+    {
+      "title": "Compressed air supply",
+      "lines": [
+        "NW 7.2 coupling, acc. ISO",
+        "4414/EN 983 standard"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: up to 40 kg/h",
+        "Compressed air: 0,3 - 2,5 m³/min. depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "6 kg"
+      ]
+    },
+    {
+      "title": "Noise level",
+      "lines": [
+        "80-85 dB(A) depending on the blasting",
+        "pressure and the cleaned surface"
+      ]
+    },
+    {
+      "title": "Input Pressure",
+      "lines": [
+        "up to 10 bar"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "up to 10 bar"
+      ]
+    },
+    {
+      "title": "ISO 8573-1:2010 [1:4:1]",
+      "lines": [
+        "0,1 mg/m³ Particles Class: 1",
+        "DTP 3°C Water Class 4",
+        "0,01 mg/m³ Class 1 oil 1"
+      ]
+    }
+  ],
+  "903": [],
+  "846": [],
+  "850": [],
+  "893": [],
+  "885": [
+    {
+      "title": "Dimensions",
+      "lines": [
+        "Length: 528 mm",
+        "Width: 296 mm",
+        "Height: 336 mm"
+      ]
+    },
+    {
+      "title": "Operating pressure",
+      "lines": [
+        "8 – 10 bar (116 - 145 PSI)"
+      ]
+    },
+    {
+      "title": "Material",
+      "lines": [
+        "Casing: Fibreglass, Wheel frame: Stainless steel"
+      ]
+    },
+    {
+      "title": "Compressed air supply",
+      "lines": [
+        "NW 7.2 coupling, acc. ISO",
+        "4414/EN 983 standard"
+      ]
+    },
+    {
+      "title": "Consumption",
+      "lines": [
+        "Dry ice: to 24 kg/h",
+        "Compressed air: 1,1 m³/min. depending on the nozzle type"
+      ]
+    },
+    {
+      "title": "Hopper capacity",
+      "lines": [
+        "4 kg"
+      ]
+    },
+    {
+      "title": "Noise level",
+      "lines": [
+        "65-85 dB(A) depending on the blasting",
+        "pressure and the cleaned surface"
+      ]
+    },
+    {
+      "title": "Imput pressure",
+      "lines": [
+        "up to 10 bar (145 PSI)"
+      ]
+    },
+    {
+      "title": "Weight",
+      "lines": [
+        "Empty machine: 19 kg with the hose",
+        "and blast gun"
+      ]
+    },
+    {
+      "title": "ISO 8573-1:2010 [1:4:1]",
+      "lines": [
+        "0,1 mg/m³ Particles Class: 1",
+        "DTP 3°C Water Class 4",
+        "0,01 mg/m³ Class 1 oil 1"
+      ]
+    }
+  ],
+  "892": [],
+  "914": [],
+  "851": [],
+  "902": [],
+  "847": [],
+  "922": [],
+  "830": [],
+  "826": [],
+  "871": [],
+  "918": []
+}

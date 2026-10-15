@@ -1,69 +1,96 @@
-import Image from "next/image";
+"use client";
+
+import ButtonPrimary from "./button-primary";
+import PageTransition from "./page-transition";
+
+import PartnerStrip from "./partner-strip";
+import { useEffect, useRef, useState } from "react";
+import { translations } from "./translations";
+import CleaningJourney from "./cleaning-journey";
+import WorldMap from "./world-map";
+import { journeyCopy } from "./journey-content";
+import { usePageMotion } from "./use-page-motion";
+import { useSmoothScroll } from "./smooth-scroll";
+import RollingText from "./rolling-text";
+import EngineeringStory from "./engineering-story";
+import ApplicationsStory from "./applications-story";
+import SiteHeader from "./site-header";
+import SiteFooter from "./site-footer";
+import { useSiteUI } from "./site-ui";
+import Icon from "./site-icon";
+import ProductShowcase from "./product-showcase";
+import "./section-scenes.css";
+import "./home-refinement.css";
+import "./action-styles.css";
+
+function HeroFilm() {
+  const ref = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+    const video = ref.current;
+    if (!video) return;
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const syncMotion = () => { if (motion.matches) video.pause(); else void video.play().catch(() => {}); };
+    syncMotion();
+    motion.addEventListener("change", syncMotion);
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) video.pause();
+      else if (!motion.matches) void video.play().catch(() => {});
+    }, { threshold: 0.1 });
+    observer.observe(video);
+    return () => { observer.disconnect(); motion.removeEventListener("change", syncMotion); };
+  }, []);
+  return <video ref={ref} className="hero-film" src="/ics/hero-video.mp4" poster="/ics/hero-poster.jpg" muted loop playsInline preload="metadata" aria-hidden="true" />;
+}
 
 export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+  const { locale, setLocale, openContact, contactOpen } = useSiteUI();
+  const [industryModalOpen, setIndustryModalOpen] = useState(false);
+  useSmoothScroll(industryModalOpen || contactOpen);
+  const pageRef = useRef<HTMLElement>(null);
+  usePageMotion(pageRef, locale);
+  const copy = translations[locale];
+  const journey = journeyCopy[locale];
+  const [service, setService] = useState<number | null>(null);
+
+  function openServiceContact(id: string) {
+    const selected = journey.services.find((item) => item.id === id);
+    if (!selected) return;
+    openContact({ name: "", email: "", company: "", interest: selected.id, message: "" });
+  }
+  function openPartnerContact(country: string, countryCode?: string) {
+    const message = { en: `I’m looking for an ICS contact in ${country}.`, sk: `Hľadám kontakt na ICS pre krajinu ${country}.`, de: `Ich suche einen ICS-Ansprechpartner für ${country}.`, ja: `${country}のICS窓口を探しています。` }[locale];
+    openContact({ name: "", email: "", company: "", interest: "other", country: countryCode, message });
+  }
+
+  return <>
+    <a className="skip-link" href="#main">{locale === "sk" ? "Prejsť na obsah" : locale === "de" ? "Zum Inhalt" : locale === "ja" ? "本文へ移動" : "Skip to content"}</a>
+    <SiteHeader locale={locale} onLocaleChange={setLocale} onContact={() => openContact()} />
+    <PageTransition><main id="main" className="home-page" ref={pageRef}>
+      <section className="hero" aria-labelledby="hero-title">
+        <HeroFilm />
+        <div className="hero-shade" />
+        <div className="hero-copy"><h1 id="hero-title">{copy.heroTitle[0]}<br />{copy.heroTitle[1]}</h1><a className="hero-link ui-action ui-action--secondary ui-action--inverse roll-trigger" href="#technology"><RollingText>{copy.editorial.explore}</RollingText><Icon name="arrow" /></a></div>
+        <div className="hero-bottom"><span className="hero-location">{copy.origin}<br /><span>{copy.global}</span></span></div>
+      </section>
+
+      <ProductShowcase locale={locale} />
+
+      <CleaningJourney locale={locale} />
+
+      <ApplicationsStory locale={locale} onModalChange={setIndustryModalOpen} />
+      
+      <EngineeringStory locale={locale} />
+
+      <section id="services" className="services-section section-pad reveal-section"><div className="services-intro"><h2>{journey.serviceTitle}</h2><p>{journey.serviceText}</p></div><div className="service-list">{journey.services.map((item, i) => <div className="service-row" key={item.id}><h3><button id={`service-trigger-${i}`} aria-expanded={service === i} aria-controls={`service-body-${i}`} onClick={() => setService(service === i ? null : i)}>{item.title}<span className="service-plus"><Icon name="plus" /></span></button></h3><div id={`service-body-${i}`} hidden={service !== i} role="region" aria-labelledby={`service-trigger-${i}`}><p>{item.text}</p><div className="service-actions"><ButtonPrimary icon="diagonal" onClick={() => openServiceContact(item.id)}>{journey.serviceAction}</ButtonPrimary></div></div></div>)}</div></section>
+
+      <PartnerStrip locale={locale} />
+
+      <section id="worldwide" className="world-story section-pad reveal-section"><div id="about" className="world-intro"><h2>{copy.editorial.worldHeading[0]}<br /><span>{copy.editorial.worldHeading[1]}</span></h2><div><p>{copy.worldText}</p></div></div><div className="world-map-wrap"><WorldMap locale={locale} onContact={openPartnerContact} /></div></section>
+
+      <section className="contact-section section-pad"><h2 className="contact-invitation">{copy.editorial.contactTitle[0]}<br />{copy.editorial.contactTitle[1]}</h2><div className="contact-bottom"><p>{copy.ctaText}</p><ButtonPrimary onClick={() => openServiceContact("demonstration")}>{copy.bookDemo}</ButtonPrimary></div></section>
+    </main></PageTransition>
+    <SiteFooter />
+
+
+  </>;
 }

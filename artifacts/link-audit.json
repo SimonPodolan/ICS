@@ -1,0 +1,1116 @@
+{
+  "internal": [
+    {
+      "path": "/",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/production",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/automation",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-5mm-rn-10-05-001-814",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-6mm-rn-10-06-001-815",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-7mm-rn-10-07-001-816",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-8mm-rn-10-08-001-817",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-10mm-rn-10-10-001-818",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-3mm-rn-11-03-000-821",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-4mm-rn-11-04-000-822",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-5mm-rn-11-05-000-823",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-6mm-rn-11-06-000-824",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-rn-34-10-100-alu-825",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-45-rn-34-10-200-alu-826",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-90-rn-34-10-300-alu-827",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-5mm-rn-10-05-001-alu-828",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-6mm-rn-10-06-001-alu-829",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-7mm-rn-10-07-001-alu-830",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-8mm-rn-10-08-001-alu-831",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-10mm-rn-10-10-001-alu-832",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-12mm-rn-10-12-001-alu-833",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-10-02-000-834",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-10-04-000-835",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-10-06-000-836",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-10-07-000-837",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-34-10-100-838",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-34-10-200-839",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-45-fn-34-10-300-840",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-90-fn-34-10-400-841",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-20-10-200-ic-022-842",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/alu-rn-10-adapter-843",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/rn-10-pom-adapter-844",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/alu-na-34-adapter-845",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/crusher-nozzle-846",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/nozzle-extension-alu-na-34-20-100-847",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/nozzle-extension-alu-na-34-20-200-848",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/nozzle-extension-alu-na-34-20-300-849",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/nozzle-extension-alu-45-na-34-30-100-850",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/nozzle-extension-alu-90-na-34-30-200-851",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/adapter-alu-na-20-10-001-ic-022-852",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/thermobox-100-kg-854",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/thermobox-200-kg-855",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-110-e-ic-110-e-plus-856",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-310-ic-310-plus-857",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-310-s-ic-310-s-plus-858",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/production/ice-peletizer-ip-100-h-859",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/compressed-air-hose-3-4-l-10m-860",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/key-861",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/ergo-flex-862",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/ice-shovel-2-kg-863",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/full-protection-goggles-864",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/handgrip-865",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/clamping-round-866",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/blast-gun-ig-30-e-with-led-light-electric-868",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/blast-gun-ig-10-e-electric-869",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flex-case-i-870",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flex-case-ii-plus-871",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/cold-resistant-gloves-872",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/thermobox-35kg-873",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/1-5-mm-extrusion-die-875",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/3-mm-extrusion-die-876",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/16-mm-extrusion-die-878",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-022-ic-022-plus-885",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/external-module-pam-01-886",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/customized-compressed-air-hose-3-4-887",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-12mm-rn-10-12-001-890",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-diameter-5mm-rn-13-05-000-for-ig-30-e-891",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/blast-gun-ig-10-pneumatic-892",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/blast-gun-ig-11-e-electric-893",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/led-light-for-ig10e-and-ig10-with-fastening-set-894",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/ergo-flex-895",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/ice-shovel-1-kg-896",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/protection-sleeve-m-897",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/ear-protection-898",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/compressed-air-connection-set-899",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/customized-1-2-pneumatic-blast-hose-ic110-900",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/1-2-standard-pneumatic-blast-hose-l-5m-ic110-901",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/1-2-pneumatic-blast-hose-extension-ic110-902",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/customized-1-2-electric-blast-hose-ic110e-903",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/1-2-electric-blast-hose-extension-ic110-e-904",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/1-2-standard-electric-blast-hose-l-5m-ic110e-905",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/customized-3-4-electric-blast-hose-for-ic-310-ic-310-s-906",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/3-4-electric-blast-hose-extension-ic-310-ic-310-s-907",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/3-4-standard-electric-blast-hose-l-7m-ic310-ic310s-908",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/customized-1-2-special-electric-blast-hose-for-ig30e-909",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/1-2-special-electric-blast-hose-with-ig30e-gun-910",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/round-nozzle-alu-rn-22-08-000-ic-022-914",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-fn-20-11-300-alu-45-ic-022-916",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-35-10-200-918",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/flat-nozzle-alu-fn-36-10-200-919",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/3-4-electric-blast-hose-with-ig11e-gun-921",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/external-module-pam-02-922",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-030-923",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-410-ic-410-plus-924",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-410-s-ic-410-s-plus-925",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/automation/aps-530s-ip100h-926",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/external-module-pam-03-927",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-430-automatic-928",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-110-929",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/cleaning/ic-021-930",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/compressed-air-hose-ic-021-ic-022-931",
+      "status": 200,
+      "brokenAnchors": []
+    },
+    {
+      "path": "/products/accessories/compressed-air-hose-1-1-2-889",
+      "status": 200,
+      "brokenAnchors": []
+    }
+  ],
+  "external": [
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sh-110-e-plus-pdf-thtsa.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sh-110-h-pelletizeren-pdf-3a5qc.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sh-310-pdf-l0hv7.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sh-310s-plus-pdf-4awyl.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sheet-pam-01-pdf-1zot5.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sheet-pam-01-pdf-bex8v.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//data-sheet-pam-01-pdf-pm94u.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//datasheet-410-s-res-pdf-nokp7.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//datasheet-aps-packaging-system-pdf-xeokj.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//ic-410-pdf-f4at2.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page//pam2-pdf-mnabx.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/220/data-sh-022-plus-pdf-hp34a.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/396/datasheet-ic-030-2025-pdf-1wu2x.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/396/datasheetpam3-pdf-nsfdi.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/419/ic430-pdf-2yt0p.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/424/data-sh-110-p-plus-pdf-gnk0z.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/428/data-sheet-ic-021-pdf-19xxb.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/data/files/page/katalog-2026-compressed-pdf-pykc4.pdf",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/814",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/815",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/816",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/817",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/818",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/821",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/822",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/823",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/824",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/825",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/826",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/827",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/828",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/829",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/830",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/831",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/832",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/833",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/834",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/835",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/836",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/837",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/838",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/839",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/840",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/841",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/842",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/843",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/844",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/845",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/846",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/847",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/848",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/849",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/850",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/851",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/852",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/854",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/855",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/856",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/857",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/858",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/859",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/860",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/861",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/862",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/863",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/864",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/865",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/866",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/868",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/869",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/870",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/871",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/872",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/873",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/875",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/876",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/878",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/885",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/886",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/887",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/889",
+      "status": "404",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/890",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/891",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/892",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/893",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/894",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/895",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/896",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/897",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/898",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/899",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/900",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/901",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/902",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/903",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/904",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/905",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/906",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/907",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/908",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/909",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/910",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/914",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/916",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/918",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/919",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/921",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/922",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/923",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/924",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/925",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/926",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/927",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/928",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/929",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/930",
+      "status": "200",
+      "error": ""
+    },
+    {
+      "url": "https://www.ics-dryice.com/en/product/detail/931",
+      "status": "200",
+      "error": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "fixes": [
+    "explicit light-only browser palette",
+    "height-independent scroll scene",
+    "stable SVG timeline across refreshes",
+    "matching pre-hydration geometry",
+    "mobile sheet focus/scroll restoration",
+    "bottom-anchored visual viewport handling",
+    "desktop industry row anchor preservation"
+  ],
+  "checks": {
+    "lint": "passed",
+    "productionBuild": "passed",
+    "mobileViewport": "390x650",
+    "darkSystemPreference": true,
+    "computedColorScheme": "light only",
+    "scrollSceneEnabledBelow700px": true,
+    "rapidForwardBackAndStepChanges": "passed",
+    "thermalShockSvgTransform": "matrix(1,0,0,1,0,0)",
+    "sheetPageYBeforeAfter": [
+      1913,
+      1913
+    ],
+    "sheetInternalScrollTop": 260,
+    "sheetExpandedViewport": {
+      "height": 740,
+      "panelBottom": 740,
+      "panelHeight": 598
+    },
+    "desktopLaterRowTopBeforeAfter": [
+      449.109375,
+      451.703125
+    ],
+    "browserConsoleErrors": 0
+  },
+  "limits": [
+    "Responsive Chromium-backed browser tested with system dark preference. Physical mobile Brave/Safari not available in this session."
+  ]
+}

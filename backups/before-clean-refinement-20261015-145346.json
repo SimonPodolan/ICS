@@ -1,0 +1,5 @@
+{
+  "archive": "before-clean-refinement-20261015-145346.tar.gz",
+  "sha256": "8642b2906806277a035687578eed5818909509a03a2a24afd6f2e374a35fefba",
+  "includes": "Source, public assets, package lock and project configuration. Excludes dependencies, build output, IDE state, Git and environment secrets."
+}

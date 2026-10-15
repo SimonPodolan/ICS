@@ -1,0 +1,118 @@
+/* Exactly two action treatments: solid primary and text/arrow secondary.
+   Inverse changes contrast only. Icon is a size modifier for secondary actions. */
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary) {
+  --action-primary: #31562a;
+  --action-primary-hover: #24451f;
+  --action-foreground: var(--ink, #222823);
+  --action-foreground-hover: #31562a;
+  --action-focus: #34762a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  min-width: 0;
+  min-height: 44px;
+  max-width: 100%;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: none;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 450;
+  line-height: 1.35;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  cursor: pointer;
+  opacity: 1;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: transform 160ms cubic-bezier(.23, 1, .32, 1), background-color 180ms ease, color 180ms ease;
+}
+
+:is(a, button).ui-action.ui-action--primary {
+  padding: 13px 18px;
+  background: var(--action-primary);
+  color: #fff;
+}
+
+:is(a, button).ui-action.ui-action--secondary {
+  padding: 10px 0;
+  background: transparent;
+  color: var(--action-foreground);
+}
+
+:is(a, button).ui-action.ui-action--inverse {
+  --action-foreground: #fff;
+  --action-foreground-hover: #dcedd5;
+  --action-focus: #b4dfa0;
+}
+
+:is(a, button).ui-action.ui-action--secondary.ui-action--icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  padding: 10px;
+  flex-shrink: 0;
+  gap: 0;
+  border: 0;
+  border-radius: 2px;
+  background: transparent;
+}
+
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary) :is(.circle-arrow, .contact-arrow) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  transform: none;
+}
+
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary) :is(.icon, svg) {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  transform: none;
+  transition: transform 200ms cubic-bezier(.23, 1, .32, 1);
+}
+
+:is(a, button).ui-action.ui-action--icon :is(.icon, svg) { width: 19px; height: 19px; }
+
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary):active { transform: scale(.97); }
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary):focus-visible {
+  outline: 2px solid var(--action-focus);
+  outline-offset: 5px;
+  transition: none;
+}
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary):focus-visible:active { transform: none; }
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary):focus-visible :is(.icon, svg) { transform: none; transition: none; }
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary):disabled { opacity: .45; cursor: not-allowed; transform: none; }
+:is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary)[hidden] { display: none; }
+
+@media (hover: hover) and (pointer: fine) {
+  :is(a, button).ui-action.ui-action--primary:hover:not(:disabled) { background: var(--action-primary-hover); color: #fff; opacity: 1; }
+  :is(a, button).ui-action.ui-action--secondary:hover:not(:disabled) { background: transparent; color: var(--action-foreground-hover); opacity: 1; }
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  :is(a, button).ui-action.ui-action--secondary:hover:not(:disabled, :focus-visible, .ui-action--icon) :is(.icon, svg) { transform: translateX(3px); }
+}
+
+@media (max-width: 520px) {
+  :is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary) { gap: 14px; }
+  :is(a, button).ui-action.ui-action--primary { padding-inline: 16px; }
+  :is(a, button).ui-action.ui-action--secondary.ui-action--icon { padding: 10px; gap: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary),
+  :is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary) :is(.icon, svg) { transition: none; }
+  :is(a, button).ui-action:is(.ui-action--primary, .ui-action--secondary):active { transform: none; }
+}

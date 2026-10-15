@@ -1,0 +1,11 @@
+.git
+.idea
+.next
+node_modules
+artifacts
+backups
+.agents
+.codex
+.env*
+*.tsbuildinfo
+README.md

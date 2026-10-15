@@ -1,0 +1,30 @@
+.partner-section { padding-top: clamp(32px, 4vw, 60px); padding-bottom: 16px; scroll-margin-top: 24px; border-top: 1px solid var(--line); }
+.partner-section-intro { display: grid; grid-template-columns: 1.2fr 1fr; gap: 7vw; align-items: start; }
+.partner-section-intro h2 { font-size: clamp(32px, 3.8vw, 54px); line-height: 1.08; letter-spacing: -.045em; }
+.partner-section-intro p { max-width: 475px; font-size: 13px; line-height: 1.8; color: var(--muted); }
+.partner-section-intro .ui-action { margin-top: 12px; }
+.partner-ticker { overflow: hidden; margin-top: 28px; mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent); }
+.partner-track { display: flex; width: max-content; animation: partners-drift 65s linear infinite; }
+.partner-track-group { display: flex; flex: 0 0 auto; justify-content: space-around; align-items: center; min-width: 100vw; list-style: none; padding: 0; margin: 0; }
+.partner-track-group li { display: flex; align-items: center; justify-content: center; width: 216px; height: 102px; padding-inline: 23px; flex: 0 0 auto; }
+.partner-track-group img { width: 170px; height: 82px; object-fit: contain; mix-blend-mode: multiply; }
+.partner-ticker[data-paused="true"] .partner-track { animation-play-state: paused; }
+.partner-motion-controls { display: flex; justify-content: flex-end; }
+.partner-motion-controls button { color: #78816e; }
+@keyframes partners-drift { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@media (hover: hover) and (pointer: fine) { .partner-ticker:hover .partner-track { animation-play-state: paused; } }
+@media (max-width: 700px) {
+ .partner-section-intro { grid-template-columns: 1fr; gap: 18px; }
+ .partner-ticker { margin-top: 18px; }
+ .partner-track-group li { width: 164px; height: 80px; padding-inline: 17px; }
+ .partner-track-group img { width: 130px; height: 65px; }
+ .partner-section { padding-bottom: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .partner-ticker { mask-image: none; padding-inline: var(--gutter); }
+ .partner-track { animation: none; width: 100%; }
+ .partner-track-group { min-width: 0; width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(130px,1fr)); gap: 12px; }
+ .partner-track-group[aria-hidden="true"] { display: none; }
+ .partner-track-group li { width: auto; padding: 10px; }
+ .partner-motion-controls { display: none; }
+}
